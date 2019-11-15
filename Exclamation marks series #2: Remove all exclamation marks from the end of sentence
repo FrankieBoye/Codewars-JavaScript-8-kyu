@@ -20,7 +20,6 @@ function remove(s){
 
 
 function remove(s){
-
  while(s.slice(-1) == "!"){
  s = s.substr(0,s.length - 1)
  }
@@ -32,8 +31,7 @@ function remove(s){
 
 function remove(s){
  x = s.split("").reverse().join("");
- 
- while(x.charAt(0) == "!"){
+  while(x.charAt(0) == "!"){
    x = x.substr(1,x.length)
    }
    return x.split("").reverse().join("");
