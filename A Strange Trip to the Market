@@ -10,6 +10,5 @@ Since Nessie is a master of disguise, the only way accurately tell is to look fo
 
 
 
-function isLockNessMonster(s) {
-  return s.includes("tree fiddy","3.50","three fifty")
-}
+
+No yet completed
